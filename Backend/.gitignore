@@ -1,0 +1,77 @@
+# ============================
+# Node.js / Express Backend
+# ============================
+
+# Node modules (बहुत बड़ा folder होता है)
+node_modules/
+
+# Environment files (sensitive info)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage (test reports)
+coverage/
+*.lcov
+
+# Build output (अगर build command है)
+dist/
+build/
+.tmp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency caches
+.npm
+.yarn
+.cache/
+.next/
+.eslintcache
+
+# Temporary uploads (if using multer, etc.)
+uploads/
+tmp/
+public/uploads/
+
+# TypeScript build output (if using TS)
+*.tsbuildinfo
+out/
+lib/
+
+# Optional lock files (if you want to keep only one)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Misc
+*.bak
+*.orig
+.sass-cache/

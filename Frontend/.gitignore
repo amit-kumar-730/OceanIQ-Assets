@@ -1,0 +1,79 @@
+# ============================
+# Frontend Projects (React / Vite / Next.js / Angular)
+# ============================
+
+# Dependencies
+node_modules/
+
+# Environment files (sensitive info)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build output
+build/
+dist/
+.next/
+out/
+.tmp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders & settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache folders
+.cache/
+.eslintcache
+stylelintcache
+.next/cache
+vite.cache/
+storybook-static/
+
+# Test coverage
+coverage/
+*.lcov
+
+# Temporary or uploaded files
+uploads/
+temp/
+tmp/
+
+# Dependency manager caches
+.npm/
+.yarn/
+.pnpm-store/
+.bun/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Optional lock files (choose only one)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Miscellaneous
+*.bak
+*.orig
+*.tmp
+
+vite.config.ts
+vite.config.js
+tailwind.config.js
+postcss.config.js
